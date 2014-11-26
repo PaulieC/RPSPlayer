@@ -78,6 +78,7 @@ class BEPCPlayer(Player.Player):
                 temp_moves, winner = message.get_info()
                 # now update information for both player's moves
                 self.game_move_updates(temp_moves, winner)
+
     def game_move_updates(self, round_moves, winning_player):
         """Called in the notify function. This function
         discovers if the past round was a win/loss for

@@ -5,6 +5,7 @@ __author__ = 'Tara Crittenden'
 import Observer
 from Message import *
 
+
 class Display(Observer.Observer):
 
     #Determine which method to display

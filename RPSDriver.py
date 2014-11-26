@@ -22,7 +22,7 @@ if __name__ == "__main__":
     player = RPSPlayerExample()
     # We are player 2
     opponent = BEPCPlayer()
-    players = [player,opponent]
+    players = [player, opponent]
     rps = RPSGame()
     driver.register_players(players)
     driver.set_game(rps)
